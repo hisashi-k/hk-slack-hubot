@@ -145,5 +145,6 @@ module.exports = (robot) ->
   robot.hear /COBRA-DANE/i, (msg) -> msg.send "新型の位相段列型レーダーね～。"
   robot.hear /PAWS/i, (msg) -> msg.send "アメリカのSLBM警戒用の位相段列型レーダーね～。"
   robot.hear /ミニットマン/i, (msg) -> msg.send "ミニットマンはLGM30、ミニットマン2はLGM30F、ミニットマン3はLGM30Gね～。"
-# robot.hear /F-22/i, (msg) -> msg.send "ラプターね～。"
+  robot.hear /F-22/i, (msg) -> msg.send "ラプターね～。"
+  robot.hear /V-22/i, (msg) -> msg.send "CV-22はアメリカ空軍向け、MV-22はアメリカ海兵隊向けね～。"
 # robot.hear /単語/i, (msg) -> msg.send "説明"
