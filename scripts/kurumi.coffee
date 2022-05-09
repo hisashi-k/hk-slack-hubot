@@ -193,6 +193,9 @@ module.exports = (robot) ->
   robot.hear /福祉国家/i, (msg) -> msg.send "夜警国家の反対ね～。"
   robot.hear /夜警国家/i, (msg) -> msg.send "自由放任主義的な国家を批判した、ラッサールの言葉ね～。"
   robot.hear /評論/i, (msg) -> msg.send "物事の是非・善悪・優劣・美醜を批評し、論じることね～。"
+  robot.hear /SLBM/i, (msg) -> msg.send "潜水艦発射弾道ミサイルね～。"
+  robot.hear /SLCM/i, (msg) -> msg.send "水上発射巡航ミサイルね～。"
+  robot.hear /SEAD/i, (msg) -> msg.send "敵防空網制圧ね～。"
+  robot.hear /DEAD/i, (msg) -> msg.send "敵防空網破壊ね～。"
 
 # robot.hear /単語/i, (msg) -> msg.send "説明"
-
